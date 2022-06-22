@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assert/fontawesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script&family=Epilogue:wght@300&family=Joan&family=Kdam+Thmor+Pro&family=Lobster&family=Lobster+Two&family=Poppins:wght@300&family=Raleway&family=Roboto&family=Source+Sans+Pro:ital@1&family=Ultra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script&family=Epilogue:wght@300&family=Joan&family=Kdam+Thmor+Pro&family=Lobster&family=Lobster+Two&family=Poppins:wght@300&family=Raleway&family=Roboto&family=Source+Sans+Pro:ital@1&family=Ultra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Family Restaurant</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!---------------------------------------Navbar------------------------------------------------------>
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-danger">Family<span class="text-primary">Restaurant</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#restaurant-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="restaurant-navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-3"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item px-3"><a href="#" class="nav-link">Specials</a></li>
+                <li class="nav-item px-3"><a href="#" class="nav-link">Chefs</a></li>
+                <li class="nav-item px-3"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item px-3"><a href="#" class="nav-link">Help</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!-------------------Sliders----------------------------->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img-3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!---------------Specials------------------------------------->
+
+      <div class="specials p-5" id="specials">
+        <div class="container">
+            <div class="grid">
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                        <i class="fa-solid fa-hand-holding-heart fa-4x text-success"></i>
+                        <p class="h2 dance-font my-2">HandPicked-Items</p>
+                        <p class="lead">All items that are used in preparation are best in quality. </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fa-solid fa-shield-heart fa-4x text-danger"></i>
+                        <p class="h2 dance-font my-2">Made With Love</p>
+                        <p class="lead">The items are made with customers wish and love.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fa-solid fa-star fa-4x text-warning"></i>
+                        <p class="h2 dance-font my-2">Delicious-Food</p>
+                        <p class="lead">The food is with best of the taste (Delicious,Sweet).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <!----------------Middle-section------------------------------------>
+
+      <section class="menus">
+        <div class="menu-1 bg-dark p-5" id="menus">
+            <div class="container">
+                <div class="grid">
+                    <div class="row text-white align-items-center">
+                        <div class="col-md-6">
+                            <p class="h2">Master <span class="text-info">Chefs</span></p>
+                            <p class="lead fst-italic">Our Chefs are well trained and highly specialised in their proffesion and have a lot of experience in cooking.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <video src="viedo/food-1.mp4" controls autoplay class="img-fluid">
+                                <source src="viedo/food-1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-2 bg-white p-5" id="menus">
+            <div class="container">
+                <div class="grid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <video src="viedo/food-2.mp4" controls autoplay class="img-fluid">
+                                <source src="viedo/food-2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="h2">Master in <span class="text-success">Garnishing</span></p>
+                            <p class="lead fst-italic">It's an embellishment added to a food to enhance its appearance or taste.Simple garnishes such as chopped herbs, decoratively cut lemons, parsley and watercress sprigs, browned breadcrumbs, sieved hard-cooked eggs, and broiled tomatoes are appropriate to a wide variety of foods</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-3 bg-dark p-5" id="menus">
+            <div class="container">
+                <div class="grid">
+                    <div class="row text-white align-items-center">
+                        <div class="col-md-6">
+                            <p class="h2">Best <span class="text-danger">Recipes</span></p>
+                            <p class="lead fst-italic">Simply Recipes is a trusted resource for home cooks with more than 3,000 tested recipes, guides, and meal plans, drawing over 15 million readers each month from around the world. We’re supported by a group of recipe developers, food writers, recipe and product testers, photographers, and other creative professionals.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <video src="viedo/food-3.mp4" controls autoplay class="img-fluid">
+                                <source src="viedo/food-3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--------------chefs------------------------------------>
+
+      <section class="chefs p-5" id="chefs">
+         <div class="container">
+            <div class="grid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card shadow-lg">
+                            <img src="images/test-1.jpg" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title">Steven </p>
+                                <p class="text-muted">Master chef</p>
+                                <p class="fst-italic">Having 10 years of experience</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa-brands fa-facebook text-primary fa-2x"></i>
+                                    <i class="fa-brands fa-twitter text-info fa-2x"></i>
+                                    <i class="fa-brands fa-youtube text-danger fa-2x"></i>
+                                    <i class="fa-brands fa-instagram-square text-danger fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-lg">
+                            <img src="images/test-4.jpg" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title">James</p>
+                                <p class="text-muted">Superior chef</p>
+                                <p class="fst-italic">Having 9 years of experience</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa-brands fa-facebook text-primary fa-2x"></i>
+                                    <i class="fa-brands fa-twitter text-info fa-2x"></i>
+                                    <i class="fa-brands fa-youtube text-danger fa-2x"></i>
+                                    <i class="fa-brands fa-instagram-square text-danger fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-lg">
+                            <img src="images/test-3.jpg" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title">Elizabeth </p>
+                                <p class="text-muted">Associate chef</p>
+                                <p class="fst-italic">Having 8 years of experience</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa-brands fa-facebook text-primary fa-2x"></i>
+                                    <i class="fa-brands fa-twitter text-info fa-2x"></i>
+                                    <i class="fa-brands fa-youtube text-danger fa-2x"></i>
+                                    <i class="fa-brands fa-instagram-square text-danger fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-lg">
+                            <img src="images/test-2.jpg" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title">Michael Stone</p>
+                                <p class="text-muted">Assistant chef</p>
+                                <p class="fst-italic">Having 4 years of experience</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fa-brands fa-facebook text-primary fa-2x"></i>
+                                    <i class="fa-brands fa-twitter text-info fa-2x"></i>
+                                    <i class="fa-brands fa-youtube text-danger fa-2x"></i>
+                                    <i class="fa-brands fa-instagram-square text-danger fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </section>
+
+      <!------------------footer--------------------------->
+
+      <footer class="footer bg-dark p-2 text-center">
+        <hr>
+        <p class="text-white">©Copyrights-2022: By FamilyRestaurant. </p>
+      </footer>
+
+</body>
+</html>
